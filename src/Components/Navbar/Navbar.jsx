@@ -7,7 +7,7 @@ const Navbar = () => {
     const {user, logOut} = use(AuthContext)
 
     const handlaeLogout= () => {
-      console.log('user trying to logout');
+      // console.log('user trying to logout');
       logOut().then (()=> {
         alert ("Sign-out successful.")
       }).catch((error) => {
